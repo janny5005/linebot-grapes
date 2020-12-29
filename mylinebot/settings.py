@@ -119,7 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 LINE_CHANNEL_ACCESS_TOKEN = '/9KUhRRbSvg0FHUqLQS+Yg07edvW6XPGlXrsAP/8TomQHQoYNBdCTZX/hZ0MQjzsNYX+qzzfNzk7wt00jbUwVQjpQPF9Onj69du3nyVu70iu3yLPBASaNjb0AnY8nWdXcvE38HSnGwd5QbzZuGYtYAdB04t89/1O/w1cDnyilFU='
  
