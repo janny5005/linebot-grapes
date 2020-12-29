@@ -119,14 +119,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 LINE_CHANNEL_ACCESS_TOKEN = '/9KUhRRbSvg0FHUqLQS+Yg07edvW6XPGlXrsAP/8TomQHQoYNBdCTZX/hZ0MQjzsNYX+qzzfNzk7wt00jbUwVQjpQPF9Onj69du3nyVu70iu3yLPBASaNjb0AnY8nWdXcvE38HSnGwd5QbzZuGYtYAdB04t89/1O/w1cDnyilFU='
  
 LINE_CHANNEL_SECRET = '0d542b8bd6b6994647445ef0cf410931'
 
 ALLOWED_HOSTS = [
-    'd6fc1add1bfd.ngrok.io',  #允許的網域名稱
+    'linebot-grapes.herokuapp.com',  #允許的網域名稱
     '127.0.0.1',
 ]
 
