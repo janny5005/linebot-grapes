@@ -129,3 +129,7 @@ ALLOWED_HOSTS = [
     'd6fc1add1bfd.ngrok.io',  #允許的網域名稱
     '127.0.0.1',
 ]
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
